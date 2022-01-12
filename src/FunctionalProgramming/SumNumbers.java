@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 public class SumNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+        String input = getInput(scanner);
 
         Function<String, IntStream> getIntStream = str -> Arrays.stream(str.split(", ")).mapToInt(Integer::parseInt);
 
@@ -18,5 +18,9 @@ public class SumNumbers {
 
         System.out.println("Count = " + getCount.apply(input));
         System.out.println("Sum = " + getSum.apply(input));
+    }
+
+    private static String getInput(Scanner scanner) {
+        return scanner.nextLine();
     }
 }
