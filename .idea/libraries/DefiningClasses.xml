@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="DefiningClasses">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/DefiningClasses/CarByBrandFile.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/DefiningClasses/Car.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
